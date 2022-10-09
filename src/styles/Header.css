@@ -1,0 +1,7 @@
+.homepage-header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../assets/homepage-background.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
