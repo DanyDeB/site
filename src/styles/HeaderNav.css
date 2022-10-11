@@ -3,17 +3,18 @@
     position:absolute;
     display: flex;
     text-align: center;
-    justify-content: space-around;
+    justify-content: center;
     margin: 0;
     padding: 0;
     width: 100vw;
     height: 6em;
-    background-color: red;
+    background: linear-gradient(hsla(0, 0%, 0%, 0.854), hsl(0, 0%, 0%, 0));
+    z-index: 0;
 }
 
 .homepage-header-nav-logo {
     position: absolute;
-    left: 3em;
+    left: 3%;
     top: 25%;
     width: 3em;
     height: 50%;
@@ -21,9 +22,17 @@
 }
 
 .homepage-head-nav-links {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     margin: 0;
     padding: 0;
-    background-color: blue;
+    top: 25%;
+    width: 70%;
+    height: 50%;
+    font-size: 20px;
+    text-shadow: hsla(60, 38%, 82%, 0.795) 1px 1px;
 }
 
 .homepage-head-nav-links li {
@@ -31,5 +40,39 @@
 }
 
 .homepage-head-nav-socialnetwork {
-    background-color: green;
+    display: flex;
+    position: absolute;
+    padding: 0;
+    right: 3em;
+    list-style: none;
+    width: 3em;
+    height: 50%;
+    /* background-color: hsla(60, 23%, 71%, 0.795); */
 }
+
+.homepage-head-nav-socialnetwork div:nth-child(1) {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    top: -3px;
+    background-image: url('../assets/img/instagram.svg');
+    background-size: 40px;
+    background-repeat: no-repeat;
+    text-shadow: 0 0 1em hsla(60, 23%, 71%, 0.795);
+    background-color: hsl;
+    /* box-shadow: 0 0 1em hsla(60, 23%, 71%, 0.795); */
+    /* background-color: hsla(60, 23%, 71%, 0.795); */
+}
+/* .homepage-head-nav-socialnetwork div:nth-child(2) {
+    width: 20px;
+    height: 20px;
+    background-image: url('../assets/img/facebook.svg');
+    background-repeat: no-repeat;
+}
+.homepage-head-nav-socialnetwork div:nth-child(3) {
+    width: 20px;
+    height: 20px;
+    background-image: url('../assets/img/uber-eat.svg');
+    background-repeat: no-repeat;
+} */

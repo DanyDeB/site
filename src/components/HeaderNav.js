@@ -11,9 +11,9 @@ function HeaderNav() {
                 <li>À propos de nous</li>
             </ul>
             <ul className="homepage-head-nav-socialnetwork">
-                <li><div className="homepage-head-nav-socialnetwork-instagram"></div></li>
-                <li><div className="homepage-head-nav-socialnetwork-facebook"></div></li>
-                <li><div className="homepage-head-nav-socialnetwork-maps"></div></li>
+                <div></div>
+                <div></div>
+                <div></div>
             </ul>
         </div>
     )
