@@ -1,0 +1,34 @@
+.homepage-header-background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    /* width: 100vw; */
+    height: 100vh;
+    z-index: 0;
+}
+
+.homepage-header-background-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat;
+    color: hsl(60, 63%, 81%);
+    font-size: 15vh;
+    text-shadow: 0 0 .5em hsl(0, 0%, 0%);
+    z-index: 10;
+}
+
+.homepage-header-background-headline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: AmaticSC;
+    color: hsl(60, 63%, 81%);
+    font-size: 10vh;
+    text-shadow: 0 0 .5em hsl(0, 0%, 0%);
+    z-index: 10;
+    /* background: radial-gradient(circle); */
+}
