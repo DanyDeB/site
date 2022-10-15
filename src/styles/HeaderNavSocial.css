@@ -1,0 +1,50 @@
+
+
+.homepage-head-nav-socialnetwork {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 200px;
+    height: 200px;
+    /* background-color: red; */
+}
+
+.homepage-head-nav-socialnetwork-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 1.5em;
+    right: 6em;
+    width: 55px;
+    height: 55px;
+    background-color: hsl(36, 66%, 56%);
+    border-radius: 50%;
+    transition: 1s;
+}
+
+.homepage-head-nav-socialnetwork.active .homepage-head-nav-socialnetwork-button {
+    transform: rotate(315deg);
+}
+
+.homepage-head-nav-socialnetwork-button svg {
+    position: relative;
+    left: -2px;
+}
+
+svg {
+    width: 40px;
+    height: 40px;
+}
+
+.homepage-head-nav-socialnetwork li {
+    position: absolute;
+    left: 0;
+    list-style: none;
+    transform-origin: 100px;
+    /* transition: 0.5s;
+    transform: rotate(0deg) translateX(-40px); */
+}

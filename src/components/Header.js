@@ -10,7 +10,6 @@ function Header() {
 
     return (
         <div className="homepage-header">
-            {/* <img id='homepage-header-bg' src={background} alt="fond" /> */}
             <div className="homepage-header-gradient"></div>
             <HeaderNav />
             <HeaderBackground />

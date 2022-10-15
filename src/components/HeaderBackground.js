@@ -10,12 +10,12 @@ const HeaderBackground = () => (
         bgImageAlt="background" 
         strength={300}
     >
-        <p className="homepage-header-background-title">
-            My Bar
-        </p>
-        <p className="homepage-header-background-headline">
-            Pour les gourmands, les fines bouches et les bouches gourmandes 
-        </p>
+        <div className="homepage-header-background-title">
+            MY BAR
+        </div>
+        <div className="homepage-header-background-headline">
+            Gourmand, fin et rafiné
+        </div>
     </Parallax>
 );
 
