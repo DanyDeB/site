@@ -119,6 +119,10 @@
     transform: rotate(180deg);
 }
 
+.homepage-head-nav-socialnetwork.active .homepage-head-nav-socialnetwork-toggle svg:nth-child(1) {
+    opacity: 0;
+}
+
 
 .test {
     fill: white;

@@ -21,7 +21,8 @@ function HeaderNavSocial() {
                     )
                 )}
             >
-                <NetworkIcon name='Share'/>
+                <NetworkIcon name='Share' />
+                <NetworkIcon name='Minus' />
             </div>
             <li>
                 <a href="https://facebook.com" target='_blank' rel='noreferrer'>

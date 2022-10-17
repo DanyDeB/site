@@ -4,4 +4,4 @@ https://losteria.net/fr/
 change header display
     - width: -1200px (tablets)
              -680px
-             -480px
+             -480px 
