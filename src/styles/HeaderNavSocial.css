@@ -9,6 +9,7 @@
     top: 1.5em;
     width: 300px;
     height: 300px;
+    z-index: 0;
 }
 
 .homepage-head-nav-socialnetwork li {
@@ -71,16 +72,15 @@
 }
 
 .homepage-head-nav-socialnetwork li a svg {
-    width: 30px;
     z-index: 101;
     fill: #000;
     transition: 0.2s;
 }
 .homepage-head-nav-socialnetwork li:nth-child(2) a svg {
-
+    width: 30px;
 }
 .homepage-head-nav-socialnetwork li:nth-child(3) a svg {
-
+    width: 30px;
 }
 .homepage-head-nav-socialnetwork li:nth-child(4) a svg {
     width: 40px;
@@ -108,7 +108,12 @@
 .homepage-head-nav-socialnetwork-toggle svg {
     width: 25px;
     z-index: 151;
+    transition: 0.2s;
 }
+
+/* .homepage-head-nav-socialnetwork-toggle:hover svg {
+    fill: rgb(167, 0, 0);
+} */
 
 .homepage-head-nav-socialnetwork.active .homepage-head-nav-socialnetwork-toggle {
     transform: rotate(180deg);

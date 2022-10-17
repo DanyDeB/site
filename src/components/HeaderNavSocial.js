@@ -9,7 +9,7 @@ function HeaderNavSocial() {
     return (
         <div className={`homepage-head-nav-socialnetwork ${toggle ? "active" : ""}`}>
             <div 
-                className="homepage-head-nav-socialnetwork-toggle"
+                className="homepage-head-nav-socialnetwork-toggle hover-red"
                 onClick={() => (
                     toggle ? (
                         setToggle(false),

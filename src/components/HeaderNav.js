@@ -8,10 +8,22 @@ function HeaderNav() {
         <div className="homepage-header-nav">
                 <div className="homepage-header-nav-logo">MY BAR</div>
             <ul className="homepage-head-nav-links">
-                <li>MENU</li>
-                <li>RESERVATION</li>
-                <li>COMMANDE</li>
-                <li>À PROPOS DE NOUS</li>
+                <li 
+                    className="hover-red"
+                >
+                    MENU</li>
+                <li 
+                    className="hover-red"
+                >
+                    RESERVATION</li>
+                <li 
+                    className="hover-red"
+                >
+                    COMMANDE</li>
+                <li 
+                    className="hover-red"
+                >
+                    À PROPOS DE NOUS</li>
             </ul>
             <HeaderNavSocial />
         </div>
