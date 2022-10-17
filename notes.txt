@@ -2,4 +2,6 @@ https://inblooomhandmadebar.mystrikingly.com/
 https://losteria.net/fr/
 
 change header display
-    - width: -1000px
+    - width: -1200px (tablets)
+             -680px
+             -480px
