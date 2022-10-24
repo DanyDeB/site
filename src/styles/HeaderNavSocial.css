@@ -26,6 +26,11 @@
     transform-origin: 150px;
     transform: rotate(0deg) translateX(125px);
 }
+
+.homepage-head-nav-socialnetwork svg {
+    
+}
+
 .homepage-head-nav-socialnetwork.active li:nth-child(2) {
     transform: rotate(calc(-90deg / 3 * 0));
 }
