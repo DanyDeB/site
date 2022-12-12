@@ -8,7 +8,7 @@ function HeaderNavSocial() {
     
     return (
         <div className={`homepage-head-nav-socialnetwork ${toggle ? "active" : ""}`}>
-            <div 
+            <div
                 className="homepage-head-nav-socialnetwork-toggle hover-red"
                 onClick={() => (
                     toggle ? (
@@ -36,7 +36,8 @@ function HeaderNavSocial() {
             </li>
             <li>
                 <a href="https://www.ubereats.com/fr" target='_blank' rel='noreferrer'>
-                    <NetworkIcon name='UberEat' className="homepage-head-nav-socialnetwork-ubereat-logo" />
+                    <NetworkIcon name='UberEat' className="homepage-head-nav-socialnetwork-ubereat-logo
+                    " />
                 </a>
             </li>
             <li>

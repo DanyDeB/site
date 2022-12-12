@@ -9,21 +9,47 @@ function HeaderNav() {
                 <div className="homepage-header-nav-logo">MY BAR</div>
             <ul className="homepage-head-nav-links">
                 <li 
-                    className="hover-red"
+                    className="homepage-head-nav-links-elem"
                 >
-                    MENU</li>
+                    <p
+                        className='hover-red'
+                    >
+                        MENU
+                    </p>
+                    <ul className='homepage-head-nav-links-elem-list'>
+                        <li className='hover-red'>Bières</li>
+                        <li className='hover-red'>Coctails</li>
+                        <li className='hover-red'>Vins</li>
+                        <li className='hover-red'>Sans Alcools</li>
+                    </ul>
+                </li>
                 <li 
-                    className="hover-red"
+                    className="homepage-head-nav-links-elem"
                 >
-                    RESERVATION</li>
+                    <p
+                        className='hover-red'
+                    >
+                        RESERVATION
+                    </p>
+                </li>
                 <li 
-                    className="hover-red"
+                    className="homepage-head-nav-links-elem"
                 >
-                    COMMANDE</li>
+                    <p
+                        className='hover-red'
+                    >
+                        COMMANDE
+                    </p>
+                </li>
                 <li 
-                    className="hover-red"
+                    className="homepage-head-nav-links-elem"
                 >
-                    À PROPOS DE NOUS</li>
+                    <p
+                        className='hover-red'
+                    >
+                        À PROPOS DE NOUS
+                    </p>
+                </li>
             </ul>
             <HeaderNavSocial />
         </div>

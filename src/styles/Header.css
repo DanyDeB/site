@@ -1,8 +1,6 @@
 
-
 .homepage-header {
     width: 100%;
-    height: 100vh;
 }
 
 .homepage-header-gradient {
@@ -13,3 +11,34 @@
     height: 6em;
     background: linear-gradient(black, rgba(255, 255, 255, 0));
 }
+
+@media screen and (min-width: 1080px) {
+    .homepage-header {
+        height: 100vh;
+    }
+
+    .homepage-header-gradient {
+        opacity: 1;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1080px) {
+    .homepage-header {
+        height: 50vh;
+    }
+
+    .homepage-header-gradient {
+        opacity: 0;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .homepage-header {
+        height: 50vh;
+    }
+
+    .homepage-header-gradient {
+        opacity: 0;
+    }
+}
+

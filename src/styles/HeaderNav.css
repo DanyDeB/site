@@ -1,4 +1,6 @@
-
+.homepage-header-nav * {
+    text-transform: uppercase;
+}
 @font-face {
     font-family: Montserrat;
     src: url(../assets/fonts/Montserrat-Regular.ttf);
@@ -8,11 +10,15 @@
     font-family: NotoSJP-Bold;
     src: url('../assets/fonts/NotoSansJP/NotoSansJP-Bold.otf');
 }
+@font-face {
+    font-family: NotoSJP;
+    src: url('../assets/fonts/NotoSansJP/NotoSansJP-Black.otf');
+}
 
 
 .homepage-header-nav {
     color: hsla(60, 23%, 71%, 0.795);
-    position:absolute;
+    position: absolute;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -53,7 +59,7 @@
     z-index: 10;
 }
 
-.homepage-head-nav-links li {
+.homepage-head-nav-links-elem {
     list-style: none;
     font-size: 20px;
     font-family: NotoSJP-Bold;
@@ -61,11 +67,66 @@
     cursor: pointer;
 }
 
+.homepage-head-nav-links-elem-list {
+    position: absolute;
+    display: block;
+    z-index: 0;
+    top: 1em;
+    width: 15em;
+    height: auto;
+    list-style: none;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.homepage-head-nav-links-elem:hover .homepage-head-nav-links-elem-list {
+    opacity: 1;
+}
+
+.homepage-head-nav-links-elem:hover .homepage-head-nav-links-elem-list li {
+    opacity: 1;
+}
+
+.homepage-head-nav-links-elem-list li {
+    position: absolute;
+    top: -0.5em;
+    display: flex;
+    opacity: 0;
+}
+.homepage-head-nav-links-elem-list li:nth-child(1) {
+    top: calc(1.2em * 1);
+}
+.homepage-head-nav-links-elem-list li:nth-child(2) {
+    top: calc(1.2em * 2);
+}
+.homepage-head-nav-links-elem-list li:nth-child(3) {
+    top: calc(1.2em * 3);
+}
+.homepage-head-nav-links-elem-list li:nth-child(4) {
+    top: calc(1.2em * 4);
+}
+.homepage-head-nav-links-elem-list li:nth-child(5) {
+    top: calc(1.2em * 5);
+}
+
 .hover-red {
-    transition: 0.1s;
+    transition: 0.2s;
 }
 .hover-red:hover {
     color: rgb(197, 12, 12);
     fill: rgb(197, 12, 12);
     text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (min-width: 1080px) {
+    .homepage-head-nav-links-elem {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1080px) {
+    .homepage-head-nav-links-elem {
+        font-size: 18px;
+    }
+    
 }

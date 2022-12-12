@@ -27,10 +27,6 @@
     transform: rotate(0deg) translateX(125px);
 }
 
-.homepage-head-nav-socialnetwork svg {
-    
-}
-
 .homepage-head-nav-socialnetwork.active li:nth-child(2) {
     transform: rotate(calc(-90deg / 3 * 0));
 }
@@ -141,4 +137,65 @@
 .test {
     fill: white;
     height: 2px;
+}
+
+@media screen and (min-width: 1080px) {
+    .homepage-head-nav-socialnetwork {
+        right: 1.5em;
+        top: 1.5em;
+        width: 300px;
+        height: 300px;
+    }
+    
+    .homepage-head-nav-socialnetwork-toggle {
+        width: 50px;
+        height: 50px;
+    }
+
+    .homepage-head-nav-socialnetwork-toggle svg {
+        width: 25px;
+    }
+
+    .homepage-head-nav-socialnetwork li {
+
+    }
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 1080px) {
+    .homepage-head-nav-socialnetwork {
+        width: 250px;
+        height: 250px;
+    }
+    .homepage-head-nav-socialnetwork-toggle {
+        width: 40px;
+        height: 40px;
+    }
+
+    .homepage-head-nav-socialnetwork-toggle svg {
+        width: 20px;
+    }
+
+    .homepage-head-nav-socialnetwork li {
+        width: 40px;
+        height: 40px;
+        transform-origin: 125px;
+        transform: rotate(0deg) translateX(105px);
+    }
+    .homepage-head-nav-socialnetwork li a {
+        width: 40px;
+        height: 40px;
+    }
+    .homepage-head-nav-socialnetwork li:nth-child(2) a svg {
+        width: 25px;
+    }
+    .homepage-head-nav-socialnetwork li:nth-child(3) a svg {
+        width: 25px;
+    }
+    .homepage-head-nav-socialnetwork li:nth-child(4) a svg {
+        width: 30px;
+    }
+    .homepage-head-nav-socialnetwork li:nth-child(5) a svg {
+        width: 12px;
+    }
 }

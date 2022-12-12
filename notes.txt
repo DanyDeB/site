@@ -5,3 +5,5 @@ change header display
     - width: -1200px (tablets)
              -680px
              -480px 
+
+marker width 800: space between header elements
